@@ -1,0 +1,76 @@
+.banner {
+    color:white;
+    object-fit: contain;
+    height: 448px;
+}
+
+.banner-contents{
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner-description{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 80px;
+
+}
+/* Base button style */
+.banner-button {
+    
+    
+    font-size: 18px;
+    background-color: rgba(51,51,51,0.5); /* Netflix red color */
+    color: #fff; /* White text color */
+    border: none;
+    outline: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  
+  .banner-button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s; 
+  }
+  
+.banner-fadebottom{
+    height:7.4rem;
+    background-image:linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    ) ;
+}
+
+/* header div h3 {
+    font-family:sans-serif;
+    margin-left: 50px;
+    transform: color 600ms;
+    cursor: alias;
+    
+    
+}
+
+header div h3:hover{
+    color:#E50914;
+} */
