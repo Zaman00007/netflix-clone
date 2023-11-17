@@ -59,6 +59,7 @@ function Row({ title, fetchURL, isLargeRow }) {
   
   // Check if movies is defined before trying to map over it
   console.table(movies);
+  console.table(trailerUrl);
 
   return (
     <div className='row'>
